@@ -16,13 +16,14 @@ public class IntroToRandom {
 		Random rand=new Random();
 
 		//4. Limit the random number between 0 and 100
-int num=rand.nexInt(101);
+int num=rand.nextInt(101);
 		//5. Limit the random number between 25 and 75. Hint: ((highest value - lowest value)+1) + lowest value
-
-		//6. Challenge: Limit the random number between -222 and 88
+int hoi=rand.nextInt((88 - -222)+1) + -222;
+int boi=rand.nextInt((75 - 25)+1) +25;		//6. Challenge: Limit the random number between -222 and 88
 
 		//1. Print out the value of r
-		System.out.println(r);
+		System.out.println(hoi);
+		System.out.println(boi);
 		//2. Run the program.  What number appears in the console?
 		//   Run it again. Is the number the same?
 	}
