@@ -12,14 +12,31 @@ public class Validation {
 		
 		Random randomMaker = new Random();
 		
-		int randomNumber = randomMaker.nextInt(5);
 		
-		System.out.println(randomNumber);
-
+		
+	
 		// 1. Use each value of randomNumber to give the user a random compliment.
-
-		// 2. Repeat all the code above 10 times
 		
+// 2. Repeat all the code above 10 times
+		for (i
+
+				randomNumber==4) {
+				JOptionPane.showMessageDialog(null, ("I like your shoes"));
+			}
+		
+			else if(randomNumber==3) {
+				JOptionPane.showMessageDialog(null, ("You're Awesome!!"));
+			}
+			
+			else if(randomNumber==2) {
+				JOptionPane.showMessageDialog(null, ("You're Funny"));
+			}
+			else if(randomNumber==1) {
+				JOptionPane.showMessageDialog(null, ("I like you'e hat"));
+			}
+			else if(randomNumber==0) {
+				JOptionPane.showMessageDialog(null, ("You're kind!"));
+			}
+		}}
 		// 3. Find someone to test out your program. They will like it :)
 	}
-}
