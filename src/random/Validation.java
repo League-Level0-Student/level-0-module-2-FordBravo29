@@ -18,9 +18,10 @@ public class Validation {
 		// 1. Use each value of randomNumber to give the user a random compliment.
 		
 // 2. Repeat all the code above 10 times
-		for (i
-
-				randomNumber==4) {
+		for( int i = 0; i < 10; i++) {
+int randomNumber = randomMaker.nextInt(5);
+			
+				if(randomNumber==4) {
 				JOptionPane.showMessageDialog(null, ("I like your shoes"));
 			}
 		
